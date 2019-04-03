@@ -6,11 +6,7 @@ const PhotoGrid = React.createClass({
     render(){
         return (
             <div>
-                <h1>
-                    <Link to="/">
-                       I AM  PhotoGrid
-                    </Link>
-                </h1>
+                {JSON.stringify(this.props.posts,null, ' ')}
             </div>
         )
     }
